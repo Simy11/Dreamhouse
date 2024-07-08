@@ -44,7 +44,7 @@ private class AccountTriggerTest {
         insert expectedAccounts;
         Test.stopTest();
 
-        List<Account> actualAccounts = [SELECT Id FROM Account];
+        List<Account> actualAccounts = [SELECT Id, ShippingState FROM Account];
         Assert.areEqual(
             200,
             actualAccounts.size(),
