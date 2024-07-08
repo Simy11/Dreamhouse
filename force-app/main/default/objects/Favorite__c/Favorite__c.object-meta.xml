@@ -153,13 +153,12 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Offer</label>
+    <label>Favorite</label>
     <nameField>
-        <displayFormat>OF-{0000}</displayFormat>
-        <label>Offer Name</label>
-        <type>AutoNumber</type>
+        <label>Favourite Name</label>
+        <type>Text</type>
     </nameField>
-    <pluralLabel>Offers</pluralLabel>
+    <pluralLabel>Favorites</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
