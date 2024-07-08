@@ -10,4 +10,8 @@ trigger AccountTrigger on Account(
     if (Trigger.isAfter && Trigger.isInsert) {
         AccountHandler.CreateNewOpportunity(Trigger.New);
     }
+
+    if (Trigger.isBefore && Trigger.isInsert) {
+        AccountTriggerHandler.CreateAccounts(Trigger.New);
+    }
 }
