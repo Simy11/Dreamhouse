@@ -1,5 +1,5 @@
 @isTest
-private class AccountTrigger_Test {
+private class AccountTriggerTest {
     @isTest
     static void TestCreateNewAccountInBulk() {
         List<Account> accts = new List<Account>();
